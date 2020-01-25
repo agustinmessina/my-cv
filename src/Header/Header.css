@@ -1,0 +1,25 @@
+header {
+  background-color: #05275B;
+  color: white;
+  display: grid;
+  justify-items: center;
+}
+
+.Header-contact {
+  padding: 10px 0;
+  display: grid;
+  grid-template-columns: auto auto 1fr;
+  grid-auto-rows: minmax(max-content, 30px);
+}
+
+.Header-contact > div {
+  padding-left: 5px;
+}
+
+.Header-contact > img {
+  width: 20px;
+}
+
+.Header-linkedin {
+  color: white;
+}
