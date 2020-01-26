@@ -1,5 +1,5 @@
 header {
-  background-color: #05275B;
+  background-color: var(--dark-blue-color);
   color: white;
   display: grid;
   justify-items: center;

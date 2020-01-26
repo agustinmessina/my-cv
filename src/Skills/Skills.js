@@ -22,10 +22,9 @@ function Skill({icon, children}) {
   );
 }
 
-function SkillsSection() {
+function Skills() {
   return (
     <div>
-      <h2>Skills</h2>
       <Skill icon={csharp}>
         C# is my major skill. In my current job i’ve been designing and developing a financial API in .NET Core from
         scratch. It’s deployed in AWS and communicates with other APIs through RESTfull HTTP requests to get information
@@ -71,4 +70,4 @@ function SkillsSection() {
   );
 }
 
-export default SkillsSection;
+export default Skills;

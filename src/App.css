@@ -1,7 +1,20 @@
 .container {
   display: grid;
+  --dark-blue-color: #05275B;
 }
 
 .main {
   padding: 0 10px;
+}
+
+.section-title {
+  color: var(--dark-blue-color);
+}
+
+.intermediate-font {
+  font-size: 1.1rem;
+}
+
+.big-font > li {
+  font-size: 1.2rem;
 }
