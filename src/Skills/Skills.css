@@ -4,6 +4,16 @@
   padding: 10px 0;
 }
 
+.skill > img {
+  width: 40px; 
+}
+
 .skill > div {
   padding-left: 10px;
+}
+
+@media screen and (min-width: 1200px) {
+  .skill > img {
+    width: 60px;
+  }
 }

@@ -8,10 +8,10 @@ import linkedin from './linkedin.png';
 function Header() {
   return (
     <header>
-        <h1>
+        <h1 className="Header-title">
           Agustin Elian Messina
         </h1>
-        <img src={picture} width="180px" alt="profile" />
+        <img src={picture} className="profile-img" alt="profile" />
         <div className="Header-contact">
           <img src={location} alt="location"/>
           <div>Location:</div>

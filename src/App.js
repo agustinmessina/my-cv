@@ -5,7 +5,7 @@ import Skills from './Skills/Skills';
 
 function Section({title, children}) {
   return (
-    <div>
+    <div className="section">
       <h2 className="section-title">
         {title}
       </h2>

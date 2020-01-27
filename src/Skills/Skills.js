@@ -14,7 +14,7 @@ import agileScrum from './agile-scrum.png';
 function Skill({icon, children}) {
   return (
     <div className="skill">
-      <img src={icon} width="40px" />
+      <img src={icon} />
       <div>
         {children}
       </div>
@@ -26,7 +26,7 @@ function Skills() {
   return (
     <div>
       <Skill icon={csharp}>
-        C# is my major skill. In my current job i’ve been designing and developing a financial API in .NET Core from
+        In my current job i’ve been designing and developing a financial API in .NET Core from
         scratch. It’s deployed in AWS and communicates with other APIs through RESTfull HTTP requests to get information
         and process it. Also, I work with EntityFramework Core for database operations.
       </Skill>
