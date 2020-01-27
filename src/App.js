@@ -52,6 +52,10 @@ function App() {
           </ul>
         </Section>
       </div>
+      <footer>
+        This website was made with React.js and deployed in Amazon Web Services. Click <a href="https://github.com/agustinmessina/my-cv">here</a> to 
+        view the code in my github
+      </footer>
     </div>
   );
 }

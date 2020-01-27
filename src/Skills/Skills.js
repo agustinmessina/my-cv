@@ -35,7 +35,7 @@ function Skills() {
         log in and register loans of their customers. The application communicated with a backend in Java.
       </Skill>
       <Skill icon={reactLogo}>
-        This website is made with React.js using React Hooks.
+        This website is made with React.js using React Hooks, with a mobile first approach.
         <br />
         I made a game with a library (p5.js) in javascript and react for the menus. You can check it out 
         <span> </span><a href="https://twin-cars.herokuapp.com/">here</a>, it’s deployed in Heroku.

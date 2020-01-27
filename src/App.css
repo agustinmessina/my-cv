@@ -18,3 +18,15 @@
 .big-font > li {
   font-size: 1.2rem;
 }
+
+footer {
+  background-color: var(--dark-blue-color);
+  font-style: italic;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+footer > a {
+  color: white;
+}
