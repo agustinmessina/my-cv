@@ -14,7 +14,7 @@ import agileScrum from './agile-scrum.png';
 function Skill({icon, children}) {
   return (
     <div className="skill">
-      <img src={icon} />
+      <img src={icon} alt="skill"/>
       <div>
         {children}
       </div>
