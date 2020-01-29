@@ -27,27 +27,31 @@ function App() {
             and support my teammates whenever I can. Love to face new challenges and solve complex problems.
           </p>
         </Section>
-        <Section title="Skills">
-          <Skills />
-        </Section>
         <Section title="Experience">
           <ul className="big-font">
             <li>
-              02/19 - present: backend developer at <a href="https://www.accenture.com/">Accenture</a>
+              02/19 - present: .NET backend developer at <a href="https://www.accenture.com/">Accenture</a> for a financial system. 
+              Architecture design and develop of a new system. Coordinated system implementation and teached teammates about C#. Queries in 
+              a Microsoft Sql Server database. Worked in a scrum team with Azure DevOps (TFS) for user stories management and 
+              git for code versioning.
             </li>
             <li>
-              08/18 - 02/19: frontend developer at <a href="http://www.eiva.com.ar/">EIV Software</a>
+              08/18 - 02/19: Angular frontend developer at <a href="http://www.eiva.com.ar/">EIV Software</a> for a financial system. 
+              Created a lot of web forms and pages. A little bit of backend in Java. Worked in a scrum team.
             </li>
           </ul>
+        </Section>
+        <Section title="Skills">
+          <Skills />
         </Section>
         <Section title="Education">
           <ul className="big-font">
             <li>
-              Completed 3 years in the accountant career at the university <a href="https://www.fcecon.unr.edu.ar/web/">Facultad de Ciencias Economicas de Rosario</a> with a 
+              Financial title: completed 3 years in the accountant career at the university <a href="https://www.fcecon.unr.edu.ar/web/">Facultad de Ciencias Economicas de Rosario</a> with a 
               title “Bachillerato Universitario
             </li>
             <li>
-              Cambridge <a href="https://www.cambridgeenglish.org/exams-and-tests/first/">First Certificate Exam</a>
+              English title: Cambridge <a href="https://www.cambridgeenglish.org/exams-and-tests/first/">First Certificate Exam</a> (B2).
             </li>
           </ul>
         </Section>

@@ -31,6 +31,10 @@ footer > a {
   color: white;
 }
 
+li {
+  padding: 10px 0;
+}
+
 @media screen and (min-width: 768px) {
   .main {
     display: grid;
